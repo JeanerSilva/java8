@@ -64,6 +64,8 @@ public class ExemploCursos {
 		
 		//pega qualquer curso acima de 100 alunos
 		
+		Curso f = new Curso("ee",2);
+		
 		Optional <Curso> optcionalCurso = cursos.stream()
 		.filter(c -> c.getAlunos() >= 100)
 		.findAny();
