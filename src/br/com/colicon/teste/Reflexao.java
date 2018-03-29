@@ -38,10 +38,10 @@ public class Reflexao {
 			// if (m.getName().contains("setContratada")) {
 
 			if (m.getName().contains("set")) 	{
-				Parameter [] tipos = m.getParameters();
-				for (i=0;i<tipos.length-1;i++) {}
+				//Parameter [] tipos = m.getParameters();
+				//for (i=0;i<tipos.length-1;i++) {}
 				//System.out.println(tipos[i]);
-				if (tipos[i] instanceof String) m.invoke(contrato,"teste");
+				//if (tipos[i] instanceof String) m.invoke(contrato,"teste");
 			}
 		}
 
